@@ -27,17 +27,27 @@ In meeting the minimum viable product (MVP) specifications listed below, you sho
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
-
+*******************************************************************
 1. Describe the biggest difference between `.forEach` & `.map`.
+
+- forEach changes the original array and map returns a new array without changing the original.
 
 2. What is the difference between a function and a method?
 
+-a function is an object and returns a value. a method is a type of function that belongs to an object
+
 3. What is closure?
+
+-It is a function that has a reference to a private variable. It provides nested functions access to the identifiers defined in their parent scope.
 
 4. Describe the four rules of the 'this' keyword.
 
+-4.1) When used in the global scope within a browser, 'this' references the Window object. 4.2) When used in a method, 'this' references the object the method is being invoked in the context of. 4.3) When used in a constructor with the new keyword, 'this' references a newly created object. 4.4) Any function can be invoked as a method using the call or apply methods of the function instance, or by using the bind method to create a new function which will always execute in the context of the supplied object.
+
 5. Why do we need super() in an extended class?
 
+-super allows derived classes to reference the constructor of parent classes. This esures that derived instances will have all the properties expected from the parent class.
+*******************************************************************
 ## Project Set up
 
 Follow these steps to set up and work on your project:
