@@ -140,8 +140,9 @@ zooAnimals.forEach(function(animal) {
 });
 //convert to arrow function
 // const displayNames = zooAnimals.forEach((animalObj) => {
-//   return `Name: ${animalObj.animal_name}, Scientific: ${animalObj.scientific_name`;
+//   return `Name: ${animalObj.animal_name}, Scientific: ${animalObj.scientific_name}`;
 // });
+
 console.log(displayNames);
 
 /* Request 2: .map()
